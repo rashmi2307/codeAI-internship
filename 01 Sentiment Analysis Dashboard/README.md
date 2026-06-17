@@ -14,8 +14,8 @@ An interactive dashboard built with Streamlit to analyze customer review sentime
 
 If you only have a minute, review these:
 
-1. `01 Sentiment Analysis Dashboard/ana.py` — Streamlit app and sentiment analysis implementation
-2. `01 Sentiment Analysis Dashboard/Reviews intern.csv` — review dataset used for analysis
+1. [ana.py](./ana.py) — Streamlit app and sentiment analysis implementation
+2. [Reviews intern.csv](./Reviews%20intern.csv) — review dataset used for analysis
 
 ---
 
