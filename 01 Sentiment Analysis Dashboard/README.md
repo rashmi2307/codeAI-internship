@@ -44,7 +44,7 @@ The dashboard was built to help teams quickly classify sentiment, understand tex
 ## 📂 Repository Structure
 
 ```text
-02 Sentiment Analysis Dashboard/
+01 Sentiment Analysis Dashboard/
 ├── ana.py
 ├── Reviews intern.csv
 └── README.md
