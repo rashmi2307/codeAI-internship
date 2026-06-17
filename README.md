@@ -2,37 +2,39 @@
 
 An engaging portfolio of four machine learning and data science mini-projects completed during the **Cloud ML Discovery Series** internship.
 
+Each project includes practical code, real datasets, and recruiter-friendly summaries.
 
 ---
 
-## Projects Overview
+## 🚀 Projects Overview
 
-### 1. Sentiment Analysis Dashboard (`project1`)
+### 1. Sentiment Analysis Dashboard 
 
 **What it is**
 An interactive sentiment analysis app that reads customer review text and generates instant insights using VADER and TextBlob.
 
 **Why it matters**
 - Converts raw text into meaningful sentiment categories
-- Illustrates how to deploy model output in a dashboard
-- Covers both NLP preprocessing and visual storytelling
+- Demonstrates how to deploy model output in a dashboard
+- Covers NLP preprocessing and visual storytelling
 
 **Skills**
 Streamlit, NLP, sentiment analysis, text cleaning, visualization
 
 **Key files**
-- `project1/ana.py`
-- `project1/Reviews intern.csv`
+- [ana.py](./01%20Sentiment%20Analysis%20Dashboard/ana.py)
+- [Reviews intern.csv](./01%20Sentiment%20Analysis%20Dashboard/Reviews%20intern.csv)
+- [README.md](./01%20Sentiment%20Analysis%20Dashboard/README.md)
 
 **Run it**
 ```bash
 pip install streamlit pandas textblob vaderSentiment cleantext matplotlib
-streamlit run project1/ana.py
+streamlit run "01 Sentiment Analysis Dashboard/ana.py"
 ```
 
 ---
 
-### 2. Student Study Performance Modeling (`project2`)
+### 2. Student Study Performance Modeling 
 
 **What it is**
 A notebook-based analysis of student scores that combines regression and classification modeling with real school performance data.
@@ -46,15 +48,16 @@ A notebook-based analysis of student scores that combines regression and classif
 pandas, scikit-learn, regression, classification, EDA, feature engineering
 
 **Key files**
-- `project2/proj_2.ipynb`
-- `project2/study_performance.csv`
+- [proj_2.ipynb](./02%20Student%20Study%20Performance%20Modeling/proj_2.ipynb)
+- [study_performance.csv](./02%20Student%20Study%20Performance%20Modeling/study_performance.csv)
+- [README.md](./02%20Student%20Study%20Performance%20Modeling/README.md)
 
 **Run it**
-Open `project2/proj_2.ipynb` in Jupyter Notebook, JupyterLab, or Colab and execute the cells.
+Open [proj_2.ipynb](./02%20Student%20Study%20Performance%20Modeling/proj_2.ipynb) in Jupyter Notebook, JupyterLab, or Colab and execute the cells.
 
 ---
 
-### 3. Diabetes Data Analysis & Modeling (`project3`)
+### 3. Diabetes Data Analysis & Modeling 
 
 **What it is**
 A series of notebooks that explore diabetes health indicators, perform statistical analysis, and train classification models.
@@ -68,44 +71,46 @@ A series of notebooks that explore diabetes health indicators, perform statistic
 EDA, data visualization, statistical inference, logistic regression, Random Forest, model validation
 
 **Key files**
-- `project3/Data_Analysis_of_diabtes.ipynb`
-- `project3/Data_Visualization_Diabetes.ipynb`
-- `project3/Correlation_Diabetes.ipynb`
-- `project3/ANOVA_Diabetes.ipynb`
-- `project3/LogisticR_Diabetes.ipynb`
-- `project3/Performance_of_Classifier.ipynb`
+- [Data_Analysis_of_diabtes.ipynb](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/Data_Analysis_of_diabtes.ipynb)
+- [Data_Visualization_Diabetes.ipynb](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/Data_Visualization_Diabetes.ipynb)
+- [Correlation_Diabetes.ipynb](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/Correlation_Diabetes.ipynb)
+- [ANOVA_Diabetes.ipynb](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/ANOVA_Diabetes.ipynb)
+- [LogisticR_Diabetes.ipynb](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/LogisticR_Diabetes.ipynb)
+- [Performance_of_Classifier.ipynb](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/Performance_of_Classifier.ipynb)
+- [README.md](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/README.md)
 
 **Run it**
-Open any notebook in `project3` using Jupyter Notebook or JupyterLab and run the analysis cells. Internet access is required for the remote dataset.
+Open any of the notebooks in [03 Diabetes Data Analysis & Modeling](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/README.md) using Jupyter Notebook or JupyterLab and run the analysis cells. Internet access is required for the remote dataset.
 
 ---
 
-### 4. Book Search Utility (`project4`)
+### 4. Book Search Utility 
 
 **What it is**
 A lightweight command-line book search tool that finds matching titles, authors, and publishers from a metadata dataset.
 
 **Why it matters**
 - Demonstrates practical data filtering and search logic
-- Shows how to build a useful instrument around CSV data
+- Shows how to build a useful tool around CSV data
 - Is easy to modify into a more advanced recommendation tool
 
 **Skills**
 Python, pandas, CLI design, string matching, data exploration
 
 **Key files**
-- `project4/app.py`
-- `project4/books.csv`
+- [app.py](./04%20Book%20Search%20Utility/app.py)
+- [books.csv](./04%20Book%20Search%20Utility/books.csv)
+- [README.md](./04%20Book%20Search%20Utility/README.md)
 
 **Run it**
 ```bash
 pip install pandas
-python project4/app.py
+python "04 Book Search Utility/app.py"
 ```
 
 ---
 
-## What I learned
+## ✨ What I learned
 - How to design and ship an interactive data application with Streamlit.
 - How to preprocess datasets and apply regression and classification models.
 - How to interpret model performance using accuracy, confusion matrices, and ROC curves.
@@ -113,15 +118,11 @@ python project4/app.py
 - How to combine statistical analysis with machine learning in real projects.
 - How to structure code and notebooks for reuse and learning.
 
-
 ---
 
-## Notes
-- `project1/ana.py` is a Streamlit web app; it should be launched with `streamlit run`.
-- `project2/proj_2.ipynb` and the notebooks in `project3` are designed for interactive analysis.
-- `project3` notebooks use a remote CSV URL; internet access is required to load the dataset.
-- `project4/app.py` is a console-based search tool and uses `project4/books.csv` locally.
-
-
-
+## 📝 Notes
+- [01 Sentiment Analysis Dashboard/README.md](./01%20Sentiment%20Analysis%20Dashboard/README.md) is a Streamlit app folder. Launch `ana.py` with `streamlit run`.
+- [02 Student Study Performance Modeling/README.md](./02%20Student%20Study%20Performance%20Modeling/README.md) and [03 Diabetes Data Analysis & Modeling/README.md](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/README.md) are interactive notebook folders.
+- [03 Diabetes Data Analysis & Modeling](./03%20Diabetes%20Data%20Analysis%20&%20Modeling/README.md) requires internet access for the remote dataset.
+- [04 Book Search Utility/README.md](./04%20Book%20Search%20Utility/README.md) is a console-based search tool using local CSV data.
 
