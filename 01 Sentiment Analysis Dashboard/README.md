@@ -14,8 +14,8 @@ An interactive dashboard built with Streamlit to analyze customer review sentime
 
 If you only have a minute, review these:
 
-1. `project1/ana.py` — Streamlit app and sentiment analysis implementation
-2. `project1/Reviews intern.csv` — review dataset used for analysis
+1. `01 Sentiment Analysis Dashboard/ana.py` — Streamlit app and sentiment analysis implementation
+2. `01 Sentiment Analysis Dashboard/Reviews intern.csv` — review dataset used for analysis
 
 ---
 
@@ -44,7 +44,7 @@ The dashboard was built to help teams quickly classify sentiment, understand tex
 ## 📂 Repository Structure
 
 ```text
-project1/
+02 Sentiment Analysis Dashboard/
 ├── ana.py
 ├── Reviews intern.csv
 └── README.md
